@@ -227,3 +227,10 @@ body {
 .black {
     background-color: black;
 }
+
+.div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    
+}
