@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Читалка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
@@ -125,13 +129,7 @@
 
                     </div>
 
-                    <div class="label">
-                        <input type="number">
-                        <input type="color">
-                        <input type="range">
-                        <input type="radio">
-
-                    </div>
+                   
 
                     
                 </form>
@@ -149,10 +147,26 @@
 
                         </select>
                     </label>
-                    <label class="label" for=""></label>
-                    <label class="label" for=""></label>
-                    <label class="label" for=""></label>
-                    <label class="label" for=""></label>
+                    <label class="label" for="">
+                        Размер:
+                        <input value="16" type="number">
+                        px
+                    </label>
+                    <label class="label" for="">
+                        Цвет:
+                        <input type="color">
+                    </label>
+                    <label class="label" for="">
+                        Интервал:
+                        <input type="range">
+                    </label>
+                    <label class="label" for="">
+                        Цвет фона:
+                        <input type="radio" name="color">
+                        <input type="radio" name="color">
+                        <input type="radio" name="color">
+                        <input type="radio" name="color">
+                    </label>
                     
                 </form>
 
